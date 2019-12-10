@@ -1,0 +1,219 @@
+body{
+  position: relative;
+  background-color: rgb(242, 242, 242);
+}
+.container{
+  position: relative;
+}
+header{
+  position: fixed;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 3px #ccc;
+  top: 5px;
+  text-align: center;
+  width: 98.5%;
+  height: 80px;
+  align-self: center;
+}
+.header-button{
+  width: 14%;
+  height: 35px;
+  background: none;
+  border-radius: 5px;
+  border-color: black;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  transition: .5s;
+}
+.header-button:hover{
+  background-color: rgb(45, 45, 45);
+  color: white;
+  border: none;
+}
+.header-button:focus{
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+}
+nav{
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 3px #ccc;
+  position: fixed;
+  width: 17%;
+  height: 700px;
+  top: 95px;
+}
+#notepad{
+  background-color: white;
+  border-radius: 4px;
+  border: 0px;
+  box-shadow: 0px 0px 6px 3px #ccc;
+  position: fixed;
+  width: 17%;
+  height: 700px;
+  top: 95px;
+  right: 8px;
+}
+  @media screen and (max-width: 650px){
+    nav{
+      width: 45%;
+      left: 8px;
+      height: 100px;
+    }
+    #notepad{
+      width: 45%;
+      right: 8px;
+      height: 100px;
+    }
+    #calender{
+      top: 100px;
+    }
+  }
+.nav-button{
+  display: inline-block;
+  background: none;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  transition: .5s;
+}
+.nav-button:hover{
+  background-color: rgb(45, 45, 45);
+  color: white;
+  border: none;
+}
+.nav-button:focus{
+  background-color: rgb(45, 45, 45);
+  color: white;
+  border: none;
+  outline: none;
+}
+section{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+#calender{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 60%;
+}
+.todo{
+  position: relative;
+  height: 40px;
+  background-color: white;
+  margin-top: 10px ;
+  margin-bottom: 10px ;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0px 0px 6px 3px #ccc;
+  border-radius: 10px;
+}
+#todo-remove-button{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #1E1E1E;
+  outline: none;
+}
+#todo-done-button{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  right: 90px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #1E1E1E;
+  outline: none;
+}
+#todo-text{
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 50%;
+  left: 15px;
+  transform: translate(0, -50%);
+  border-width: 5px;
+  border-color: black;
+  font-size: 20px;
+}
+.input-field{
+  position: relative;
+  top: 50px;
+  height: 30px;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px 3px #ccc;
+  border-radius: 10px;
+  top: 0px;
+}
+#input-button{
+  position: relative;
+  height: 24px;
+  width: 40px;
+  top: 50%;
+  left: 16px;
+  transform: translate(0, -50%);
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #1E1E1E;
+  outline: none;
+}
+#input-text{
+  position: relative;
+  border-width: 1px;
+  border-color: #1E1E1E;
+  left: 20px;
+  width: 70%;
+  top: 50%;
+  height: 18px;
+  transform: translate(0, -50%);
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  outline: none;
+}
+.hide{
+  display: none;
+}
+.done{
+  background-color: #ccc;
+  box-shadow: inset 0px 0px 10px 5px #919191;
+}
+/* Profile */
+#profile-body section{
+  background-color: white;
+  box-shadow: 0px 0px 6px 3px #ccc;
+  border-radius: 4px;
+}
+#profile-pic{
+  background-image: url("../img/profile-pic.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+}
+#personuppgifter{
+  border-left: .5px solid grey;
+  padding-left: 15px;
+}
