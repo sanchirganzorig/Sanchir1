@@ -9,7 +9,7 @@ section{
   grid-column: 4/10;
   grid-row: 2/10;
 }
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 1050px){
     section{
       grid-column: 1/13;
       grid-row: 4/7;
@@ -34,7 +34,7 @@ section{
   grid-column: 3/-1;
   grid-row: 1/6;
 }
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 1050px){
     #profile-pic{
       grid-column: 5/6;
       grid-row: 1/6;
