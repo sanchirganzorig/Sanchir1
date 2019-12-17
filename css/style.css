@@ -62,7 +62,7 @@ nav{
   top: 95px;
   right: 8px;
 }
-  @media screen and (max-width: 650px){
+  @media screen and (max-width: 900px){
     nav{
       width: 45%;
       left: 8px;
