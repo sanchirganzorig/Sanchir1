@@ -194,6 +194,7 @@ section{
   }
   .nav-button{
     height: 100px;
+    font-size: 25px;
   }
   #notepad{
     width: 45%;
@@ -208,6 +209,7 @@ section{
   .header-button{
     width: 20%;
     height: 70px;
+    font-size: 25px;
   }
   .todo{
     height: 80px;
@@ -234,6 +236,7 @@ section{
     height: 120px;
     width: 120px;
     top: 50%;
+    font-size: 40px;
   }
 }
 /* Profile */
