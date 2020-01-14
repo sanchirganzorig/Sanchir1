@@ -62,21 +62,6 @@ nav{
   top: 95px;
   right: 8px;
 }
-  @media screen and (max-width: 1050px){
-    nav{
-      width: 45%;
-      left: 8px;
-      height: 100px;
-    }
-    #notepad{
-      width: 45%;
-      right: 8px;
-      height: 100px;
-    }
-    #calender{
-      top: 100px;
-    }
-  }
 .nav-button{
   display: inline-block;
   background: none;
@@ -199,6 +184,52 @@ section{
 .done{
   background-color: #ccc;
   box-shadow: inset 0px 0px 10px 5px #919191;
+}
+@media screen and (max-width: 1050px){
+  nav{
+    width: 45%;
+    left: 8px;
+    height: 200px;
+    top: 175px;
+  }
+  .nav-button{
+    height: 100px;
+  }
+  #notepad{
+    width: 45%;
+    right: 8px;
+    height: 200px;
+    top: 175px;
+  }
+  header{
+    height: 160px;
+  }
+  .header-button{
+    width: 20%;
+    height: 70px;
+  }
+  .todo{
+    height: 80px;
+  }
+  #todo-remove-button{
+    height: 50px;
+  }
+  #todo-done-button{
+    height: 50px;
+  }
+  #calender{
+    top: 100px;
+  }
+  .input-field{
+    height: 60px;
+  }
+  #input-text{
+    height: 30px;
+    top: 48%;
+  }
+  #input-button{
+    height: 40px;
+  }
 }
 /* Profile */
 #profile-body section{
