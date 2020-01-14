@@ -200,6 +200,7 @@ section{
     right: 8px;
     height: 200px;
     top: 175px;
+    font-size: 20px;
   }
   header{
     height: 160px;
@@ -221,14 +222,18 @@ section{
     top: 100px;
   }
   .input-field{
-    height: 60px;
+    height: 150px;
   }
   #input-text{
-    height: 30px;
-    top: 48%;
+    height: 100px;
+    left: 40px;
+    top: 50%;
+    font-size: 40px;
   }
   #input-button{
-    height: 40px;
+    height: 120px;
+    width: 120px;
+    top: 50%;
   }
 }
 /* Profile */
