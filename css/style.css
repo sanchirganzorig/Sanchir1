@@ -185,7 +185,7 @@ section{
   background-color: #ccc;
   box-shadow: inset 0px 0px 10px 5px #919191;
 }
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 800px){
     nav{
       width: 45%;
       left: 8px;
@@ -221,7 +221,7 @@ section{
       height: 50px;
     }
     #calender{
-      top: 100px;
+      top: 400px;
     }
     .input-field{
       height: 150px;
