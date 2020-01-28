@@ -7,9 +7,9 @@
 }
 section{
   grid-column: 4/10;
-  grid-row: 2/10;
+  grid-row: 3/10;
 }
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 800px){
     section{
       grid-column: 1/13;
       grid-row: 6/9;
@@ -37,7 +37,7 @@ section{
   left: 25px;
   top: 25px;
 }
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 800px){
     #profile-body section{
       position: absolute;
       left: 50%;
