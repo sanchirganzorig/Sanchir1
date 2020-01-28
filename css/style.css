@@ -28,7 +28,7 @@ header{
   transform: translate(0, -50%);
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 20px;
   transition: .5s;
 }
 .header-button:hover{
@@ -61,6 +61,7 @@ nav{
   height: 700px;
   top: 145px;
   right: 8px;
+  font-size: 20px;
 }
 .nav-button{
   display: inline-block;
@@ -70,6 +71,7 @@ nav{
   border: none;
   border-bottom: 1px solid black;
   transition: .5s;
+  font-size: 20px;
 }
 .nav-button:hover{
   background-color: rgb(45, 45, 45);
@@ -141,7 +143,6 @@ section{
   font-size: 20px;
 }
 .input-field{
-  position: relative;
   top: 50px;
   height: 60px;
   background-color: white;
@@ -150,34 +151,23 @@ section{
   border-radius: 3px;
   box-shadow: 0px 0px 6px 3px #ccc;
   border-radius: 10px;
-  top: 0px;
 }
 #input-button{
-  position: relative;
-  height: 40px;
-  width: 40px;
   top: 50%;
   left: 16px;
-  transform: translate(0, -55%);
   border-radius: 10px;
   border-width: 1px;
   border-color: #1E1E1E;
-  outline: none;
-}
-#input-text{
-  position: relative;
-  border-width: 1px;
-  border-color: #1E1E1E;
-  left: 20px;
-  width: 60%;
-  top: 50%;
-  height: 40px;
-  transform: translate(0, -50%);
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-bottom: 3px;
   outline: none;
   font-size: 20px;
+}
+#input-text{
+  border-width: 1px;
+  border-color: #1E1E1E;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  padding-left: 10px;
 }
 .hide{
   display: none;
@@ -225,26 +215,23 @@ section{
       top: 400px;
     }
     .input-field{
-      height: 150px;
-    }
-    #input-text{
-      height: 100px;
-      left: 40px;
-      top: 48%;
-      font-size: 40px;
+      height: 80px;
     }
     #input-button{
-      height: 120px;
-      width: 120px;
-      top: 55%;
-      font-size: 40px;
+      font-size: 30px;
+    }
+    #input-text{
+      font-size: 30px;
+      padding-left: 10px;
     }
   }
 /* Profile */
 #profile-body section{
+  top: 150px;
   background-color: white;
   box-shadow: 0px 0px 6px 3px #ccc;
   border-radius: 4px;
+  padding-bottom: 15px;
 }
 #profile-pic{
   background-image: url("../img/profile-pic.jpg");
@@ -253,4 +240,5 @@ section{
 }
 #personuppgifter{
   padding-left: 15px;
+  font-size: 20px;
 }
