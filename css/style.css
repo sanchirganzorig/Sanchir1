@@ -233,6 +233,7 @@ section{
   box-shadow: 0px 0px 6px 3px #ccc;
   border-radius: 4px;
   padding-bottom: 15px;
+  height: 550px;
 }
 #profile-pic{
   background-image: url("../img/profile-pic.jpg");
@@ -241,5 +242,5 @@ section{
 }
 #personuppgifter{
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 25px;
 }
