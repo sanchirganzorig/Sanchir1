@@ -33,7 +33,6 @@ section{
   top: 100px;
   left: 50%;
   transform: translate(-50%, 0);
-  height: 450px;
   width: 95%;
 }
 #profile-pic{
@@ -55,8 +54,9 @@ section{
       left: 50%;
       transform: translate(-50%, 0);
       top: 200px;
-      height: auto;
+      height: 1500px;
       width: 90%;
+      height: 700px;
     }
     #profile-pic{
       position: relative;

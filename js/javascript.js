@@ -1,9 +1,11 @@
+//Att-göra objekt
 function toDo() {
   this.todo = document.createElement("div");
   this.span = document.createElement("span");
   this.button = document.createElement("button");
   this.doneButton = document.createElement("button");
 
+//Allt man skapar i html filen när man skapar en Att-göra.
   this.createToDo = function () {
     if (document.getElementById('input-text').value === "") {
   }else{
@@ -26,24 +28,31 @@ function toDo() {
   }
 }
 
+//Lista av Att-göra
 var todoarray = [];
+
+//Skapar en Att-göra utifrån objektet ovan
 function create() {
   todoarray.push(new toDo());
   todoarray[todoarray.length-1].createToDo();
 }
 
+//Tar bort Att-göra
 function remove(button) {
   document.getElementById("todo-container").removeChild(button.parentElement);
 }
 
+//Dölj ägaren av funktion
 function hide(x) {
   document.getElementById(x).classList.add("hide");
 }
 
+//Visar ägaren av funktionen
 function show(x) {
   document.getElementById(x).classList.remove("hide");
 }
 
+//Ändrar Att-göran till "klar" (grå färg)
 function done(button) {
   button.parentElement.classList.toggle("done");
   if (button.innerHTML == "do") {
@@ -54,6 +63,7 @@ function done(button) {
   }
 }
 
+//inte klar, tanken är att byta hela sidans css till mörk tema
 function nightmode() {
   document.getElementsByClassName('index-body')[0].classList.toggle("background-black");
   document.getElementById('profile-body').classList.toggle("background-black");
