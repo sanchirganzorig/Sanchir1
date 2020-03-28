@@ -9,20 +9,20 @@
     <script src="js/javascript.js"></script>
   </head>
   <body id="index-body">
-    <div class="container">
-        <div id="todo-container">
-          <div class="input-field">
+    <div class="container"> <!-- Innehåller allt i sidan så att jag kan revidera allting enkelt -->
+        <div id="todo-container"> <!-- Denna diven innehåller alling med att-göra listen -->
+          <div class="input-field"> <!-- Rutan där du skriver in din att-göra som du vill skapa -->
             <button type="button" onclick="create()" id="input-button">+</button>
             <input type="text" name="input" placeholder="Write your to-do.." value="" id="input-text">
           </div>
         </div>
-        <img src="img/calender.png" id="calender" class="hide" alt="Calender">
-        <textarea placeholder="Write down a note..." name="name" id="notepad" rows="8" cols="80"></textarea>
-        <nav>
+        <img src="img/calender.png" id="calender" class="hide" alt="Calender"> <!-- Kalender, just nu är det bara en bild -->
+        <textarea placeholder="Write down a note..." name="name" id="notepad" rows="8" cols="80"></textarea> <!-- textarea som man kan anteckna på -->
+        <nav> <!-- navigations knappar inom hemsidan -->
           <button class="nav-button" id="nav-button1" type="button" onclick="show('todo-container'); hide('calender');" name="button">To-do List</button>
           <button class="nav-button" id="nav-button2" type="button" onclick="hide('todo-container'); show('calender');" name="button">Calender</button>
         </nav>
-        <header>
+        <header> <!-- header, innehåller knappar mellan sidorna -->
           <button class="header-button" onclick="window.location.href = 'index.html';" type="button" id="header-button1" name="Home">Home</button>
           <button class="header-button" onclick="window.location.href = 'profile.html';" type="button" id="header-button2" name="Profile">Profile</button>
           <button class="header-button" onclick="window.location.href = 'about.html';" type="button" id="header-button3" name="About">About</button>
