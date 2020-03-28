@@ -87,7 +87,7 @@ nav{
   border: none;
   outline: none;
 }
-section{
+#todo-container{
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -186,7 +186,7 @@ section{
   background-color: #ccc;
   box-shadow: inset 0px 0px 10px 5px #919191;
 }
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 1050px){
     nav{
       width: 45%;
       left: 8px;
@@ -237,7 +237,7 @@ section{
     }
   }
 /* Profile */
-#profile-body section{
+#profile-section{
   top: 150px;
   background-color: white;
   box-shadow: 0px 0px 6px 3px #ccc;

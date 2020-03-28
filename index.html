@@ -5,16 +5,17 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Doer</title>
-    <meta name="viewport" content="width=device.width, initial.scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/javascript.js"></script>
   </head>
   <body id="index-body">
     <div class="container">
-        <section id="todo-container">
+        <div id="todo-container">
           <div class="input-field">
-            <button alt="Add to do item" type="button" onclick="create()" id="input-button">+</button>
+            <button type="button" onclick="create()" id="input-button">+</button>
             <input type="text" name="input" placeholder="Write your to-do.." value="" id="input-text">
           </div>
-        </section>
+        </div>
         <img src="img/calender.png" id="calender" class="hide" alt="Calender">
         <textarea placeholder="Write down a note..." name="name" id="notepad" rows="8" cols="80"></textarea>
         <nav>
@@ -22,12 +23,11 @@
           <button class="nav-button" id="nav-button2" type="button" onclick="hide('todo-container'); show('calender');" name="button">Calender</button>
         </nav>
         <header>
-          <button class="header-button" onclick="window.location.href = 'index.html';" type="button" id="header-button1" alt="Home" name="Home">Home</button>
-          <button class="header-button" onclick="window.location.href = 'profile.html';" type="button" id="header-button2" alt="profile "name="Profile">Profile</button>
-          <button class="header-button" onclick="window.location.href = 'about.html';" type="button" id="header-button3" alt="About" name="About">About</button>
-          <button class="header-button" onclick="window.location.href = 'settings.html';" type="button" id="header-button4" alt="Settings" name="Settings">Settings</button>
+          <button class="header-button" onclick="window.location.href = 'index.html';" type="button" id="header-button1" name="Home">Home</button>
+          <button class="header-button" onclick="window.location.href = 'profile.html';" type="button" id="header-button2" name="Profile">Profile</button>
+          <button class="header-button" onclick="window.location.href = 'about.html';" type="button" id="header-button3" name="About">About</button>
+          <button class="header-button" onclick="window.location.href = 'settings.html';" type="button" id="header-button4" name="Settings">Settings</button>
         </header>
     </div>
   </body>
-  <script src="js/javascript.js" type="text/javascript"></script>
 </html>
